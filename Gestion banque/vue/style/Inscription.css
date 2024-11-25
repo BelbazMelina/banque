@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+  background-color: rgba(104, 201, 195, 0.04);
+}
+header img{
+    width: 320px;
+    height: 300px;
+    margin-top: -125px;
+    margin-left: -20px;
+}
+header{
+    background-color:rgba(208, 226, 243, 0.62);
+    height: 90px;
+    width:100% ;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+.conteneur{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.anuller{
+    margin-left: 5px;
+}
+.btn{
+    width: 100%;
+  justify-content: center;
+    display: flex;
+
+}
+input[type="submit"]{
+width: 120px;
+}
+h1{
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.erreur{
+    text-align: center;
+    color:red;
+}
+.confirmation{
+    color:green;
+}

@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+  background-color: rgba(104, 201, 195, 0.04);
+}
+header img{
+    width: 320px;
+    height: 300px;
+    margin-top: -125px;
+    margin-left: -20px;
+}
+header{
+    background-color:rgba(208, 226, 243, 0.62);
+    height: 90px;
+    width:100% ;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+div{
+  /* text-align: center; */
+  /* margin-left: -90px; */
+  margin-top: 70px;
+  align-items:center;
+  margin-left: -5px;
+  padding-left: 20px;
+  padding-top: 5px;
+  background-color:rgba(136, 147, 81, 0.17) ;
+  height: 520px;
+  margin-bottom: -200px;
+  width: 100%;
+}
+input[type="text"]{
+    width: 30px;
+    padding: 2px;
+}
+input[type="submit"]{
+   background-color: rgba(136, 147, 81, 0.51);
+   border: none;
+   margin-top: 15px;
+   padding: 5px;
+   width: 80px;
+   border-radius: 5px;
+   color: white;
+   letter-spacing: 1px;
+}
+label{
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+}
+.synthese{
+    /* margin-right: 20px; */
+    width: 200px;
+}
+.erreur{
+    color: red;
+   font-size: 15px;
+}
+.synthese{
+    width: 70%;
+   
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 1px solid;
+}
+.tab2{
+    width: 100%;
+    text-align: center;
+}
+.tab3{
+    width: 100%;
+    text-align: center;
+}
+.tab4{
+    width: 100%;
+    text-align: center;
+}
+fieldset{
+    width: 70%;
+    padding: 35px;
+    margin-left: 8%;
+}
+legend{
+   text-align: center;
+}
